@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://festasnsrabonanca.com/</loc><lastmod>2026-09-06</lastmod></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://festasnsrabonanca.com/</loc><lastmod>2026-09-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://festasnsrabonanca.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://festasnsrabonanca.com/en/"/></url>
+  <url><loc>https://festasnsrabonanca.com/en/</loc><lastmod>2026-09-07</lastmod>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://festasnsrabonanca.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://festasnsrabonanca.com/en/"/></url>
+</urlset>
