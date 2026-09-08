@@ -9,6 +9,7 @@
 <link rel="canonical" href="https://festasnsrabonanca.com/">
 <link rel="alternate" hreflang="pt-PT" href="https://festasnsrabonanca.com/">
 <link rel="alternate" hreflang="en" href="https://festasnsrabonanca.com/en/">
+<link rel="alternate" hreflang="fr" href="https://festasnsrabonanca.com/fr/">
 <link rel="alternate" hreflang="x-default" href="https://festasnsrabonanca.com/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_PT">
@@ -69,7 +70,7 @@ h1,h2,h3{margin:0;line-height:1.05}
 .nav ul{list-style:none;margin:0;padding:0;display:flex;gap:.25rem;flex-wrap:wrap;justify-content:flex-end}
 .nav li a{display:block;padding:.5rem .8rem;border-radius:999px;text-decoration:none;font-weight:700;font-size:.92rem;text-transform:uppercase;letter-spacing:.06em}
 .nav li a:hover,.nav li a:focus-visible{background:rgba(255,255,255,.14)}
-.nav li a.lang{border:2px solid rgba(255,255,255,.45);padding:.3rem .6rem;font-size:.78rem;letter-spacing:.1em}
+.nav li a.lang{border:2px solid rgba(255,255,255,.45);padding:.3rem .5rem;font-size:.74rem;letter-spacing:.08em}
 .nav li a.lang:hover{border-color:#fff}
 .nav li a.ico{padding:.45rem;border-radius:50%;display:grid;place-items:center;width:38px;height:38px}
 .nav li a.ico svg{width:20px;height:20px}
@@ -78,7 +79,7 @@ h1,h2,h3{margin:0;line-height:1.05}
 .nav li a.fb{background:#1877f2}
 .nav li a.fb:hover{background:#3b8cf5}
 .nav ul{align-items:center}
-@media (max-width:640px){.nav .wrap{flex-wrap:wrap;row-gap:0;padding:.35rem 0 .45rem}.brand{order:1}.nav .social{order:2;margin-left:auto}.nav .links{order:3;width:100%;justify-content:center;margin:0;gap:.5rem}.nav li a{padding:.4rem .7rem;font-size:.8rem;letter-spacing:.06em}.nav li a.lang{padding:.3rem .55rem;font-size:.72rem}.nav .links{flex-wrap:nowrap}}
+@media (max-width:640px){.nav .wrap{flex-wrap:wrap;row-gap:0;padding:.35rem 0 .45rem}.brand{order:1}.nav .social{order:2;margin-left:auto}.nav .links{order:3;width:100%;justify-content:center;margin:0;gap:.5rem}.nav li a{padding:.4rem .7rem;font-size:.8rem;letter-spacing:.06em}.nav li a.lang{padding:.28rem .45rem;font-size:.68rem}.nav .links{flex-wrap:nowrap}}
 @media (max-width:480px){.brand span{display:none}.nav .links li a{padding:.4rem .5rem;font-size:.74rem;letter-spacing:.04em;white-space:nowrap}}
 
 /* ---- Hero ---- */
@@ -117,6 +118,8 @@ section.bloco{padding:clamp(2.5rem,6vw,5rem) 0;scroll-margin-top:64px}
 .tabs::-webkit-scrollbar{display:none}
 .tab{flex:1 0 auto;min-width:74px;border:0;background:transparent;color:#fff;cursor:pointer;border-radius:12px;padding:.55rem .6rem .45rem;display:flex;flex-direction:column;align-items:center;line-height:1;transition:background .15s;font-family:inherit}
 .tab-dia{font-family:"Bebas Neue",sans-serif;font-size:1.9rem}
+.tab-sem .short{display:none}
+.tab-dia{white-space:nowrap}
 .tab-sem{font-size:.68rem;text-transform:uppercase;letter-spacing:.12em;font-weight:700;opacity:.8;margin-top:.15rem}
 .tab:hover{background:rgba(255,255,255,.12)}
 .tab[aria-selected="true"]{background:var(--rosa)}
@@ -136,6 +139,8 @@ section.bloco{padding:clamp(2.5rem,6vw,5rem) 0;scroll-margin-top:64px}
 .ev.next .ev-dot{background:var(--rosa);box-shadow:0 0 0 3px #fff,0 0 0 7px rgba(184,31,110,.25)}
 .ev.next .ev-titulo::after{content:"a seguir";display:inline-block;white-space:nowrap;font-family:"Nunito",sans-serif;font-size:.62rem;letter-spacing:.12em;background:var(--rosa);color:#fff;border-radius:999px;padding:.15em .6em;margin-left:.5rem;vertical-align:middle;text-transform:uppercase}
 .tab.hoje .tab-sem::after{content:" · hoje"}
+@media (max-width:560px){.tab.hoje .tab-sem::after{content:""}.tab-sem .long{display:none}.tab-sem .short{display:inline}}
+@media (max-width:640px){section.bloco{scroll-margin-top:100px}.programa,.panel{scroll-margin-top:110px}}
 .tab.hoje{box-shadow:inset 0 -3px 0 #fff}
 @media (min-width:760px){.eventos{max-width:760px;margin:0 auto}}
 .nota{margin:1rem 0 0;text-align:center;font-size:.85rem;color:var(--marinho);opacity:.85}
@@ -201,6 +206,7 @@ footer a{color:#fff}
     </a>
     <ul class="social">
       <li><a class="lang" href="en/" hreflang="en" lang="en" title="English version">EN</a></li>
+      <li><a class="lang" href="fr/" hreflang="fr" lang="fr" title="Version française">FR</a></li>
       <li><a class="ico ig" href="https://www.instagram.com/nsrabonanca2026/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a></li>
       <li><a class="ico fb" href="https://www.facebook.com/share/1EiK7qQnRt/?mibextid=wwXIfr" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.4c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.3H7.4V14h2.8v8h3.3z"/></svg></a></li>
     </ul>
@@ -241,13 +247,13 @@ footer a{color:#fff}
 
     <div class="programa">
       <div class="tabs" role="tablist" aria-label="Dias da festa">
-<button class="tab" role="tab" id="tab-dia-3" aria-controls="dia-3" aria-selected="true" data-target="dia-3"><span class="tab-dia">3</span><span class="tab-sem">Quinta</span></button>
-<button class="tab" role="tab" id="tab-dia-4-8" aria-controls="dia-4-8" aria-selected="false" data-target="dia-4-8"><span class="tab-dia">4–8</span><span class="tab-sem">Setembro</span></button>
-<button class="tab" role="tab" id="tab-dia-9" aria-controls="dia-9" aria-selected="false" data-target="dia-9"><span class="tab-dia">9</span><span class="tab-sem">Quarta</span></button>
-<button class="tab" role="tab" id="tab-dia-10" aria-controls="dia-10" aria-selected="false" data-target="dia-10"><span class="tab-dia">10</span><span class="tab-sem">Quinta</span></button>
-<button class="tab" role="tab" id="tab-dia-11" aria-controls="dia-11" aria-selected="false" data-target="dia-11"><span class="tab-dia">11</span><span class="tab-sem">Sexta</span></button>
-<button class="tab" role="tab" id="tab-dia-12" aria-controls="dia-12" aria-selected="false" data-target="dia-12"><span class="tab-dia">12</span><span class="tab-sem">Sábado</span></button>
-<button class="tab" role="tab" id="tab-dia-13" aria-controls="dia-13" aria-selected="false" data-target="dia-13"><span class="tab-dia">13</span><span class="tab-sem">Domingo</span></button>
+<button class="tab" role="tab" id="tab-dia-3" aria-controls="dia-3" aria-selected="true" data-target="dia-3"><span class="tab-dia">3</span><span class="tab-sem"><span class="long">Quinta</span><span class="short">Qui</span></span></button>
+<button class="tab" role="tab" id="tab-dia-4-8" aria-controls="dia-4-8" aria-selected="false" data-target="dia-4-8"><span class="tab-dia">4–8</span><span class="tab-sem"><span class="long">Setembro</span><span class="short">Set</span></span></button>
+<button class="tab" role="tab" id="tab-dia-9" aria-controls="dia-9" aria-selected="false" data-target="dia-9"><span class="tab-dia">9</span><span class="tab-sem"><span class="long">Quarta</span><span class="short">Qua</span></span></button>
+<button class="tab" role="tab" id="tab-dia-10" aria-controls="dia-10" aria-selected="false" data-target="dia-10"><span class="tab-dia">10</span><span class="tab-sem"><span class="long">Quinta</span><span class="short">Qui</span></span></button>
+<button class="tab" role="tab" id="tab-dia-11" aria-controls="dia-11" aria-selected="false" data-target="dia-11"><span class="tab-dia">11</span><span class="tab-sem"><span class="long">Sexta</span><span class="short">Sex</span></span></button>
+<button class="tab" role="tab" id="tab-dia-12" aria-controls="dia-12" aria-selected="false" data-target="dia-12"><span class="tab-dia">12</span><span class="tab-sem"><span class="long">Sábado</span><span class="short">Sáb</span></span></button>
+<button class="tab" role="tab" id="tab-dia-13" aria-controls="dia-13" aria-selected="false" data-target="dia-13"><span class="tab-dia">13</span><span class="tab-sem"><span class="long">Domingo</span><span class="short">Dom</span></span></button>
       </div>
 <section class="panel" id="dia-3" role="tabpanel" aria-labelledby="tab-dia-3" data-days="3"><h3 class="panel-title">3 de Setembro · Quinta-feira</h3><ol class="eventos"><li class="ev" data-min="540"><span class="ev-hora">09h00</span><span class="ev-dot" aria-hidden="true"></span><span class="ev-body"><span class="ev-titulo">Hastear da Bandeira</span><span class="ev-local">Praça da República</span></span></li><li class="ev" data-min="1095"><span class="ev-hora">18h15</span><span class="ev-dot" aria-hidden="true"></span><span class="ev-body"><span class="ev-titulo">Início da Novena em honra de N.ª Sr.ª da Bonança</span><span class="ev-local">Igreja de Nossa Senhora da Bonança</span></span></li></ol></section>
 <section class="panel" id="dia-4-8" role="tabpanel" aria-labelledby="tab-dia-4-8" data-days="4,5,6,7,8" hidden><h3 class="panel-title">4–8 de Setembro</h3><ol class="eventos"><li class="ev" data-min="1095"><span class="ev-hora">18h15</span><span class="ev-dot" aria-hidden="true"></span><span class="ev-body"><span class="ev-titulo">Novena em honra de N.ª Sr.ª da Bonança</span><span class="ev-local">Igreja de Nossa Senhora da Bonança</span></span></li></ol></section>
@@ -405,7 +411,7 @@ footer a{color:#fff}
   }
   function auto(){var id=diaProximo();if(id&&ids.indexOf(id)>-1)show(id,false,false);marcarEstado();}
   var h=location.hash.replace('#','');
-  if(ids.indexOf(h)>-1){show(h,false,false);marcarEstado();}else{auto();}
+  if(ids.indexOf(h)>-1){show(h,false,false);marcarEstado();setTimeout(function(){document.querySelector('.programa').scrollIntoView({block:'start'});},250);}else{auto();}
   window.addEventListener('focus',auto);
   document.addEventListener('visibilitychange',function(){if(document.visibilityState==='visible')auto();});
   setInterval(marcarEstado,60000);
