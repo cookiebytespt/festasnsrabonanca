@@ -7,6 +7,7 @@ Site estático das festas de Vila Praia de Âncora (9–13 de setembro de 2026),
 - `index.html` — página única em português (programa, comissão, merchandising). HTML, CSS e JS inline, sem dependências além das fontes Google.
 - `en/index.html` e `fr/index.html` — versões inglesa e francesa da mesma página (assets partilhados em `../assets/`). O seletor de idioma (PT/EN/FR) está no cabeçalho.
 - `assets/` — cartaz, programa em imagem, retratos da comissão e merchandising (otimizados a partir dos posts do Instagram).
+- `assets/apoios/{gold,silver,bronze}/` — anúncios dos patrocinadores (recortados do programa impresso). Os contactos de cada patrocinador (site, telefone, Instagram, Facebook, e-mail) estão nos ícones por baixo de cada anúncio.
 - `CNAME` — domínio personalizado para o GitHub Pages.
 - `.nojekyll` — desativa o processamento Jekyll.
 
